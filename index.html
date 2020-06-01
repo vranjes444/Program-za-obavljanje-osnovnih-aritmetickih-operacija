@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program za obavljanje osnovnih aritmetickih operacija</title>
+</head>
+<body>
+    <script>
+        var broj1 =prompt ("unesite prvi broj:");
+        var operator = prompt("unesite operator(+,-, *,/):");
+        var broj2 =prompt("unesite drugi broj:");
+            
+            if (operator=="+"){
+                let sum1 = parseInt(broj1) + parseInt(broj2);
+                alert("zbir brojeva je : " +sum1);
+
+    }  else if (operator== "-"){
+               let sum2 = parseInt (broj1)- parseInt(broj2);
+               alert("razlika brojeva je: " +sum2);
+
+    }  else if (operator =="*"){
+              let sum3 = parseInt (broj1)* parseInt(broj2);
+              alert("proizvod brojeva je: " +sum3);
+
+    }  else if (operator== "/"){
+             let sum4 = parseInt(broj1)/ parseInt(broj2);
+             alert("kolicnik brojeva je:) " +sum4 );
+
+
+    }  else {
+        alert("molim unesite jedan od operatora(+,-.*,/)");
+    }
+         
+
+    </script>
+</body>
+</html>
